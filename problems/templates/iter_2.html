@@ -1,0 +1,66 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  type="text/css" rel="stylesheet" href="{% static 'css/nil.css' %}"/>
+    <title>{{tesla.title}}</title>
+<body>
+    <div class="general">
+        <div class="head">
+            <h1>
+                izi inf
+            </h1>
+
+            <nav>
+                <a class= "piker" href="/"> Главная </a>
+                <a class= "piker" href="/problems2"> Решение задач с сайта ACMP.ru</a>
+            </nav>
+        </div>
+        
+        <div class="title">
+            <center>
+                <h1 class="title_2">
+                    {{tesla.title}}
+                </h1>
+            </center>
+            <center>
+                <a href="{{tesla.link}}" class="link_2" target="_blank">
+                    Ссылка на задачу ->
+                </a>
+            </center>
+            
+        </div>
+        <div class="text_problem">
+            <p class="explanation_2">
+                Текст Задачи:
+            </p>
+            <p>
+                {{tesla.text}}
+            </p>
+        </div>
+        <div class="codik">
+                <pre>
+                    <div class="codik_2">
+{{tesla.code}}
+                    </div>
+                </pre>
+        </div>
+
+        <div class="explanation">
+            <p class="explanation_2">
+                Объяснение решения:
+            </p>
+            <p>
+                {{tesla.explanation}}
+            </p>
+        </div>
+        <hr>
+        <div class="email">
+            my email: maxgoonfuture@gmail.com
+        </div>
+        
+    </div>    
+</body>
+</html>
+

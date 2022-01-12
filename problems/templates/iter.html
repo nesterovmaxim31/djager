@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  type="text/css" rel="stylesheet" href="{% static 'css/nil.css' %}"/>
+    <title>{{tesla.title}}</title>
+<body>
+    <div class="general">
+        <div class="head">
+            <h1>
+                izi inf
+            </h1>
+
+            <nav>
+                <a class= "piker" href="/"> Главная </a>
+                <a class= "piker" href="/problems2"> Решение задач с сайта ACMP.ru</a>
+            </nav>
+        </div>
+        
+        <div class="title">
+            <h1>
+                {{tesla.title}}
+            </h1>
+            <a href="{{tesla.link}}">
+                Ссылка на задачу
+            </a>
+        </div>
+
+        <div class="codik">
+            
+                <pre>
+                    <div class="codik">
+                        {{tesla.code}}
+                    </div>
+                    
+                </pre>
+        </div>
+
+        <div class="explanation">
+            <pre>
+                {{tesla.explanation}}
+            </pre>
+            
+        </div>
+    </div>    
+</body>
+</html>
+

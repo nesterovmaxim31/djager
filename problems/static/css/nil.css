@@ -1,0 +1,140 @@
+body
+{
+
+    background-color: rgb(230, 228, 204);
+}
+.general
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    
+    
+}
+.head
+{   
+    margin-right: 2%;
+    margin-left: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr
+{
+    margin-top: 20px;
+    background-color: green;
+    height: 2px;
+    
+}
+h1 
+{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: green;
+    margin-top: 0;
+}
+nav
+{
+    padding-top: 0;
+    font-size: 17px;
+}
+.piker
+{
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: green;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.piker:hover
+{
+    color: orange;
+}
+.text
+{
+    background-color: coral;
+    
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 30px;
+    height: 84px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link
+{
+    font-size: 23px;
+    text-decoration: none;
+    color: green;
+    transition: color 0.2s linear;
+}
+.link:hover
+{
+    
+    color: orange;
+}
+.text_2
+{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.title_2{
+    color: green;
+}
+.title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.link_2{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(11, 129, 94);
+    transition: color 0.2s linear;
+}
+
+.link_2:hover
+{
+    
+    color: rgb(7, 6, 6);
+}
+.text_problem
+{
+    margin-top: 30px;
+    margin-left: 2%;
+    font-size: 20px;
+}
+.codik
+{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(3, 37, 27);
+    color: rgb(44, 224, 194);
+    border-radius: 15px;
+}
+.codik_2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.explanation
+{
+    font-size: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.email
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.explanation_2
+{
+    font-size: 24px;
+}

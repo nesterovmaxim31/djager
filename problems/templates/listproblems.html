@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  type="text/css" rel="stylesheet" href="{% static 'css/nil.css' %}"/>
+    <title> Acmp List Problems </title>
+</head>
+<body>
+    <div class="general">
+        <div class="head">
+            <h1>
+            izi inf
+        </h1>
+
+        <nav>
+            <a class= "piker" href="/"> Главная </a>
+            <a class= "piker" href="/problems2"> Решение задач с сайта ACMP.ru</a>
+        </nav>
+        </div>
+        {% for max in List%}
+        <div class="text">
+            <center class="headerlink">
+                <h2 class="header">
+                    <a href="/problem №1" class="link">
+                        №{{max.id}} {{max.title}}
+                    </a>
+                </h2>
+            </center>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
+

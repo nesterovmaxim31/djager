@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link  type="text/css" rel="stylesheet" href="{% static 'css/pil.css' %}"/>
+    <title>  </title>
+</head>
+<body>
+    {% for max in Listproblems %}
+    <div>
+        <h2>
+            {{max.id}}) {{max.name}}
+        </h2>
+    </div>
+    {% endfor %}
+</body>
+</html>
